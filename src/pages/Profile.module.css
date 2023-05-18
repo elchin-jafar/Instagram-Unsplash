@@ -1,0 +1,37 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.gridPhotoWrapper {
+  aspect-ratio: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.onOneLine {
+  display: flex;
+  /* justify-content: start; */
+  /* align-items: center; */
+}
+
+.profilePhoto {
+  position: relative;
+  left: 7rem;
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 420px) {
+  .responsive {
+    display: none !important;
+  }
+  .gridContainer {
+    width: 99vw;
+    gap: 5px;
+    position: relative;
+    left: -192px;
+  }
+}

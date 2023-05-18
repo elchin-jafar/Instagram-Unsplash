@@ -1,0 +1,17 @@
+.postHeader {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileImage {
+  cursor: pointer;
+}
+
+.username {
+  cursor: pointer;
+}
